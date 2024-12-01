@@ -1,11 +1,14 @@
+import java.util.Scanner;
 public class Main
 {
 	public static void main(String[] args) {
-	int a=2;
-	String str="Name";
-	char b='y';
+	    Scanner scan=new Scanner(System.in);
+	int a=scan.nextInt();
+	String Str=scan.next();
+	char c=scan.next().charAt(0);
 	System.out.println(a);
-	System.out.println(str);
-	System.out.println(b);
+	System.out.println(Str);
+	System.out.println(c);
+
 	}
 }
