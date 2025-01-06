@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+	int arr[]={1,2,3,4};
+	int n=5;
+	int k=0;
+	int a=(n*(n+1))/2;
+//	System.out.println(a);
+	for(int i=0;i<n-1;i++){
+	    k=k+arr[i];
+	}
+	System.out.println(a-k);
+	}
+}
